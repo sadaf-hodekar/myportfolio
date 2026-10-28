@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Sadaf's Cloud and DevOps Engineer portfolio">
+
+  <title>Sadaf | Cloud & DevOps Portfolio</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">sadaf<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+            aria-label="Toggle navigation"
+            aria-expanded="false">
+      ☰
+    </button>
+
+    <nav id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="nav-button">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          CLOUD & DEVOPS ENGINEER · ASPIRING
+        </p>
+
+        <h1>
+          Building the future<br>
+          <span class="gradient-text">in the cloud.</span>
+        </h1>
+
+        <p class="hero-description">
+          Hi, I'm <strong>Sadaf Hodekar</strong>, a BCA graduate
+          passionate about cloud computing, infrastructure,
+          automation, and DevOps.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="button primary">
+            Explore my work ↘
+          </a>
+
+          <a href="#contact" class="button secondary">
+            Let's connect ↗
+          </a>
+        </div>
+
+        <div class="hero-note">
+          <span>01 / CLOUD</span>
+          <span>02 / AUTOMATION</span>
+          <span>03 / LEARNING</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="profile-card">
+          <div class="card-top">
+            <span></span><span></span><span></span>
+            <small>MY PROFILE</small>
+          </div>
+
+          <img
+            src="images/profile.jpg"
+            alt="Sadaf's profile photo"
+            class="profile-photo"
+            onerror="this.style.display='none';
+                     this.nextElementSibling.style.display='grid';"
+          >
+
+          <div class="photo-placeholder">
+            <span>S</span>
+            <small>Add your photo</small>
+          </div>
+
+          <div class="profile-info">
+            <div>
+              <h3>Sadaf Hodekar</h3>
+              <p>Cloud & DevOps Learner</p>
+            </div>
+            <span class="profile-icon">↗</span>
+          </div>
+        </div>
+
+        <div class="floating-card float-aws">
+          <span class="float-icon">☁</span>
+          <div><strong>AWS</strong><small>Cloud computing</small></div>
+        </div>
+
+        <div class="floating-card float-linux">
+          <span class="float-icon">⌘</span>
+          <div><strong>Linux</strong><small>Infrastructure</small></div>
+        </div>
+
+        <div class="floating-card float-docker">
+          <span class="float-icon">◈</span>
+          <div><strong>Docker</strong><small>Containers</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2>Curious mind.<br>
+          <span class="muted">Cloud-focused future.</span>
+        </h2>
+      </div>
+
+      <div class="about-content reveal">
+        <p class="about-lead">
+          I want to understand how applications run,
+          how servers communicate, and how cloud
+          infrastructure can be managed reliably.
+        </p>
+
+        <p class="muted-text">
+          I'm developing my skills through hands-on practice
+          with AWS, Linux, networking, Git, Docker, and Terraform.
+          My goal is to grow into a Cloud or DevOps Engineer
+          by building projects and learning from real problems.
+        </p>
+
+        <div class="facts">
+          <div><small>EDUCATION</small><strong>BCA · 2026</strong></div>
+          <div><small>FOCUS</small><strong>Cloud & DevOps</strong></div>
+          <div><small>LOCATION</small><strong>Karnataka, India</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / MY TOOLKIT</p>
+        <h2>Technologies I'm <span class="gradient-text">learning.</span></h2>
+        <p class="muted-text">
+          The tools I practise and use in my learning projects.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <span class="skill-icon">☁</span>
+          <h3>AWS</h3>
+          <p>EC2, S3, EBS, VPC and security groups</p>
+          <div class="skill-line"><span style="width: 60%"></span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-icon">⌘</span>
+          <h3>Linux</h3>
+          <p>Commands, files, directories and permissions</p>
+          <div class="skill-line"><span style="width: 50%"></span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-icon">◈</span>
+          <h3>Docker</h3>
+          <p>Images, containers, ports, volumes and networks</p>
+          <div class="skill-line"><span style="width: 45%"></span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-icon">⌁</span>
+          <h3>Git & GitHub</h3>
+          <p>Version control and repository management</p>
+          <div class="skill-line"><span style="width: 60%"></span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-icon">⚙</span>
+          <h3>Terraform</h3>
+          <p>Infrastructure as Code fundamentals</p>
+          <div class="skill-line"><span style="width: 40%"></span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-icon">↻</span>
+          <h3>Jenkins</h3>
+          <p>CI/CD concepts and build automation</p>
+          <div class="skill-line"><span style="width: 35%"></span></div>
+        </article>
+      </div>
+
+      <p class="skills-disclaimer">
+        These progress bars are illustrative. Adjust them to
+        reflect your actual skills before publishing.
+      </p>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / MY PROJECTS</p>
+        <h2>Learning through <span class="gradient-text">building.</span></h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-art art-aws">
+            <span>☁</span>
+            <small>AWS / STORAGE</small>
+          </div>
+          <div class="project-body">
+            <p class="project-number">PROJECT 01</p>
+            <h3>Web Server with Persistent Storage</h3>
+            <p>
+              Create an EC2 web server, attach an EBS volume,
+              and test whether data persists after stopping
+              and restarting the instance.
+            </p>
+            <div class="tags">
+              <span>AWS</span><span>EC2</span><span>EBS</span>
+            </div>
+            <a href="https://github.com/" target="_blank"
+               rel="noreferrer" class="project-link">
+              Add project repository ↗
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art art-docker">
+            <span>◈</span>
+            <small>DOCKER / CONTAINERS</small>
+          </div>
+          <div class="project-body">
+            <p class="project-number">PROJECT 02</p>
+            <h3>Containerized Application</h3>
+            <p>
+              Package a sample application into a Docker image
+              and practise ports, volumes, and container networks.
+            </p>
+            <div class="tags">
+              <span>Docker</span><span>Linux</span>
+            </div>
+            <a href="https://github.com/" target="_blank"
+               rel="noreferrer" class="project-link">
+              Add project repository ↗
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art art-terraform">
+            <span>⌁</span>
+            <small>INFRASTRUCTURE AS CODE</small>
+          </div>
+          <div class="project-body">
+            <p class="project-number">PROJECT 03</p>
+            <h3>AWS Infrastructure with Terraform</h3>
+            <p>
+              Practise writing Terraform configuration,
+              reviewing execution plans, and understanding
+              cloud resource provisioning.
+            </p>
+            <div class="tags">
+              <span>Terraform</span><span>AWS</span><span>Git</span>
+            </div>
+            <a href="https://github.com/" target="_blank"
+               rel="noreferrer" class="project-link">
+              Add project repository ↗
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">04 / GET IN TOUCH</p>
+        <h2>Let's build something<br>
+          <span class="gradient-text">meaningful.</span>
+        </h2>
+        <p class="muted-text">
+          I'm open to entry-level opportunities and new
+          learning experiences in cloud and infrastructure.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="mailto:sadafhodekar818.com"
+             class="button primary">
+            Email me ↗
+          </a>
+
+          <a href="https://github.com/sadaf-hodekar" target="_blank"
+             rel="noreferrer" class="button secondary">
+            GitHub ↗
+          </a>
+        </div>
+
+        <p class="contact-note">
+          
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo">sadaf<span>.</span></a>
+    <p>Learning. Building. Growing.</p>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+</body>
+</html>
